@@ -3,8 +3,8 @@
 class Database {
     private $host = 'localhost';
     private $db_name = 'estatmad';
-    private $username = 'root';
-    private $password = '';
+    private $username = 'projec15_estatmad';
+    private $password = '@kaesquare123';
     private $conn = null;
 
     public function getConnection() {

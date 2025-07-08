@@ -2,8 +2,8 @@
 // Konfigurasi database
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'estatmad');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', 'projec15_estatmad');
+define('DB_PASS', '@kaesquare123');
 
 class Database {
     // Properti koneksi database

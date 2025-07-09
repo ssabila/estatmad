@@ -643,7 +643,7 @@ window.showActivityDetail = (activityId) => {
               <i class="fab fa-whatsapp"></i>
               Hubungi Penyelenggara
             </a>
-            <button class="share-btn" onclick="window.shareActivity('${activityData.title.replace(/'/g, "\\'")}', '${activityData.description.replace(/'/g, "\\'")}')">
+            <button class="share-btn" onclick='window.shareActivity(${JSON.stringify(activityData.title)}, ${JSON.stringify(activityData.description)})'>
               <i class="fas fa-share"></i>
               Bagikan
             </button>

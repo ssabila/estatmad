@@ -2,8 +2,8 @@
 // Database configuration
 class Database {
     private $host = 'localhost';
-    private $db_name = 'estatmad';
-    private $username = 'projec15_estatmad';
+    private $db_name = 'projec15_estatmad';
+    private $username = 'projec15_root';
     private $password = '@kaesquare123';
     private $conn = null;
 

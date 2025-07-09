@@ -59,10 +59,6 @@ require_once 'includes/data/profile_data.php';
                     <span class="stat-number"><?= $totalActivities ?></span>
                     <span class="stat-label">Kegiatan</span>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-number"><?= $resolvedItems ?></span>
-                    <span class="stat-label">Terselesaikan</span>
-                </div>
             </div>
         </div>
     </section>
